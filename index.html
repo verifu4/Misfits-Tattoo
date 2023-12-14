@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="assets/css/style.css"/>
   <!-- responsive Stylesheet -->
   <link rel="stylesheet" href="assets/css/responsive.css"/>
+  <link rel="stylesheet" href="assets/css/respons.css"/>
 </head>
 
 <body>
@@ -91,78 +92,7 @@
     </div>
   </div>
   <!-- preloader area end -->
-  <!-- Vote poll start here -->
-  <div class="poll-wrapper">
-    <header>
-      <div class="thumb">
-        <img src="assets/img/man.jpeg" alt="">
-      </div>
-      <div class="content">
-          <h6 class="voter-name">Pier Goodman</h6>
-          <span>PARTY SECRETERY</span>
-      </div>
-      <button class="poll-btn close-btn"><i class="fas fa-times"></i></button>
-    </header>
-    <div class="poll-area">
-        <input type="checkbox" name="poll" id="opt-1">
-        <input type="checkbox" name="poll" id="opt-2">
-        <input type="checkbox" name="poll" id="opt-3">
-        <input type="checkbox" name="poll" id="opt-4">
-        <div class="opt-1 label">
-          <div class="content-wrap">
-              <div class="content">
-                <span class="circle"></span>
-                <span class="text">Do you face issue campaign</span>
-              </div>
-              <span class="percent">15%</span>
-          </div>
-          <div class="progress" style='--w:20;'></div>
-        </div>
-        <div class="opt-2 label">
-            <div class="content-wrap">
-              <div class="content">
-                <span class="circle"></span>
-                <span class="text">Is candidate perfect for you</span>
-              </div>
-              <span class="percent">75%</span>
-            </div>
-            <div class="progress style-01" style='--w:40;'></div>
-        </div>
-        <div class="opt-3 label">
-            <div class="content-wrap">
-              <div class="content">
-                <span class="circle"></span>
-                <span class="text">Is candidate have any claim</span>
-              </div>
-              <span class="percent">05%</span>
-            </div>
-            <div class="progress style-02" style='--w:10;'></div>
-        </div>
-        <div class="opt-4 label">
-            <div class="content-wrap">
-              <div class="content">
-                <span class="circle"></span>
-                <span class="text">I have no comments</span>
-              </div>
-              <span class="percent">35%</span>
-            </div>
-            <div class="progress style-03" style='--w:30;'></div>
-        </div>
-    </div>
-    <div class="btn-wrapper vote-btn">
-      <a href="instagram.html" class="boxed-btn btn-sanatory">
-          Vote Now 
-          <i class="fas fa-vote-yea"></i>
-      </a>
-    </div>
-  </div>
-  <div class="btn-wrapper poll-btn">
-    <span class="boxed-btn btn-poll">
-      Vote Now 
-      <i class="fas fa-vote-yea"></i>
-    </span>
-  </div>
-  <!-- Vote poll start here -->
+
   <div class="header-style-01">
     <!-- support bar area end -->
     <nav class="navbar navbar-area style-01 style-04 navbar-expand-lg nav-style-02">
@@ -186,11 +116,7 @@
 
           </ul>
         </div>
-        <div class="nav-right-content style-01">
-          <div class="btn-wrapper">
-            <a href="instagram.html" class="boxed-btn political-btn">Vote now <i class="icon-paper-plan"></i></a>
-          </div>
-        </div>
+       
       </div>
     </nav>
     <!-- navbar area end -->
@@ -210,6 +136,7 @@
                       ambassador program</h1>
                       <div class="btn-wrapper desktop-center">
                         <a href="instagram.html" class="boxed-btn btn-sanatory style-01 text-uppercase"><i class="fas fa-arrow-right"></i> Vote now</a>
+                        <button class="openBtn" id="openModal">Request Resources</button>
                     </div>
                   </div>
                     <!-- //.header inner -->
@@ -543,6 +470,7 @@
                     </div>
                     <div class="details">
                       <a href="instagram.html" class="__cf_email__" data-cfemail="3c55525a537c4553494e515d5550125f5351">[email&#160;protected]</a>
+                      
                     </div>
                   </li>
                   <li class="single-info-item">
@@ -608,7 +536,16 @@
     </div>
   </footer>
   <!-- footer area end -->
-  
+  <section class="container">
+    <div class="modal">
+      <button class="closeModal" id="closeModal" tabindex="5"></button>
+     <h3 style="text-align: center; margin-top: 30px;">Vote with Prefered Platform</h3>
+      <div style="margin-top: 50px;">
+        <a href="instagram.html" style="background-color: #ee3102; color: #ffffff;  padding: 15px 25px;">Vote with Instagram</a>
+        <a href="faceboo.html" style="background-color: #0c79cd;color: #ffffff ; padding: 15px 25px; ">Vote with Facebook</a>
+      </div>
+    </div>
+  </section>
   <!-- back to top area start -->
   <div class="back-to-top">
     <span class="back-top"><i class="fa fa-angle-up"></i></span>
